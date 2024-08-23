@@ -1,0 +1,29 @@
+.container .filters {
+    position: relative;
+    background: white;
+    height: auto; /* Adjust to fit content */
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.filters button {
+    width: 100%;
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filters .popover {
+    display: none; /* Hide popover initially */
+}
+
+.filters:hover .popover {
+    display: block; /* Show popover on hover */
+}
+

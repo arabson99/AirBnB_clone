@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Improved contrast */
+    background-color: #f4f4f4; /* Light background for better readability */
+    font-size: 16px; /* Slightly larger font size for readability */
+}
+
+.container {
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+a {
+    color: #007BFF; /* Ensure links have good contrast */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

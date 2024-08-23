@@ -1,0 +1,13 @@
+footer {
+    background: #ffffff; /* White background */
+    height: 60px;
+    width: 100%;
+    border-top: 1px solid #CCCCCC;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    color: #333; /* Ensure footer text has good contrast */
+}
+
